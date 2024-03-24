@@ -1,0 +1,33 @@
+<!-- index.html -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pixel Art Generator</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+
+<div class="background"></div>
+
+<div id="particles-container"> <!-- Container for particles -->
+    <div class="particle dna"></div>
+    <div class="particle neuron"></div>
+</div>
+
+<div class="wrapper">
+    <h1 class="title">Pixel Art Generator</h1> <!-- Title added here -->
+    <label for="borderColor">Cell Border Color: <input id="borderColor" type="color" value="#ddd"></label>
+    <label for="gridSize">Grid Size: <input id="gridSize" type="number" min="1" max="50" value="10"></label>
+    <button id="clear-grid">Clear Grid</button>
+    <button id="saveArt">Save Art</button>
+    <div class="container"></div>
+</div>
+
+
+
+<script src="index.js"></script>
+</body>
+</html>
